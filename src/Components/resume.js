@@ -7,8 +7,12 @@ const Resume = () => {
 
     return (
         <div className="resume-wrapper">
-            <div className="Resume">
-                This is where ill put my resume
+            <div className="resume">
+                <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1Rk8PHvxrtdeQEmETz7ERa1Mc3xChLtm_/view">
+                    <button>
+                        View/download <br /> resume here
+                    </button>
+                </a>
             </div>
         </div>
     )
