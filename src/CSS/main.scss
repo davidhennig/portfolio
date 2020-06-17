@@ -29,9 +29,9 @@
         margin:5px;
         margin-bottom: 30px;
         text-decoration: none;
-        color: rgb(34,139,34);
-        background-color: rgba(250,143,4,0.7);
-        box-shadow: 0 3px rgba(163, 92, 0, 0.7);
+        color: rgb(0, 71, 0);
+        background-color: rgba(222, 184, 135, 0.8);
+        box-shadow: 0 3px rgba(177, 147, 107, 0.8);
         border-radius: 5px;
         padding: 5px 10px;
     }
@@ -169,9 +169,9 @@
             transform: translateY(4px);
         }
         button{
-            color: rgb(34,139,34);
-            background-color: rgba(250,143,4,1);
-            box-shadow: 0 3px rgba(163, 92, 0, 0.7);
+            color: rgb(0, 71, 0);
+            background-color: rgba(222, 184, 135, 0.8);
+            box-shadow: 0 3px rgba(177, 147, 107, 0.8);
             border: none;
             outline: none;
             border-radius: 5px;
@@ -196,9 +196,9 @@
     .resume{
     margin-top: 10%;
         button{
-            color: rgb(34,139,34);
-            background-color: rgba(250,143,4,0.7);
-            box-shadow: 0 3px rgba(163, 92, 0, 0.7);
+            color: rgb(0, 71, 0);
+            background-color: rgba(222, 184, 135, 0.8);
+            box-shadow: 0 3px rgba(177, 147, 107, 0.8);
             border: none;
             outline: none;
             border-radius: 5px;
@@ -248,13 +248,16 @@
                 color:black;
                 margin-bottom: 20px;
                 button{
-                    color: rgb(34,139,34);
-                    background-color: rgba(250,143,4,1);
-                    box-shadow: 0 3px rgba(163, 92, 0, 0.7);
+                    color: rgb(0, 71, 0);
+                    background-color: rgba(222, 184, 135, 0.8);
+                    box-shadow: 0 3px rgba(177, 147, 107, 0.8);
                     border: none;
                     outline: none;
                     border-radius: 5px;
                     padding: 10px 20px;
+                    font-family: 'Berthold';
+                    font-size: large;
+                    letter-spacing: 2px;
                 }
                 button:hover{
                     cursor: pointer;
@@ -275,7 +278,7 @@
                 margin-bottom: 30px;
                 background-color: rgba(200, 200, 200, 0.65);
                 border-radius: 5px;
-                width: 30%;
+                width: 50%;
                 padding-bottom: 20px;
             }
 
