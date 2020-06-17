@@ -1,8 +1,25 @@
+@import "./variables.scss";
+
 .navbar-content {
     display: flex;
     justify-content: space-between;
+    width:80%;
+    margin: auto;
+    @include small{
+        width:70%;
+        margin: auto;
+    }
+    @include small-medium{
+        width:60%;
+        margin: auto;
+    }
+    @include medium{
+        width:50%;
+        margin: auto;
+    }
     .nav-button{
-        margin:25px;
+        margin:5px;
+        margin-bottom: 30px;
         text-decoration: none;
         color: black;
         background-color: rgba(200, 200, 200, 0.3);
@@ -23,22 +40,38 @@
 }
 .about-wrapper{
     height: 90vh;
-    width:70%;
+    width:80%;
     display:flex;
     align-items: center;
     margin: auto;
     flex-direction: column;
+    @include small{
+        width:70%;
+        margin: auto;
+    }
+    @include small-medium{
+        width:60%;
+        margin: auto;
+    }
+    @include medium{
+        width:50%;
+        margin: auto;
+    }
     .hero{
         display: flex;
-        justify-content: space-between;
         margin-bottom: 20px;;
+        width: 100%;
         img{
             width: 40%;
             border-radius: 1000px;
+            @include small-medium{
+                width:40%;
+                // margin: auto;
+            }
         }
         p{
-            padding-top: 15%;
             font-size: x-large;
+            padding-left: 50px;
         }
     }
     .about{
@@ -51,21 +84,53 @@
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
+            @include medium{
+                width:60%;
+                margin: auto;
+            }
         }
     }
 }
 .projects-wrapper{
+    width:80%;
+    margin: auto;
+    @include small{
+        width:70%;
+        margin: auto;
+    }
+    @include small-medium{
+        width:60%;
+        margin: auto;
+    }
+    @include medium{
+        width:50%;
+        margin: auto;
+    }
     .projects{
         background-color: rgba(200, 200, 200, 0.4);
         border-radius: 15px;
         font-size: medium;
-        width:80%;
         margin: auto;
         margin-bottom: 20px;
         padding: 10px 20px;
+        a{
+            text-decoration: none;
+            color:black;
+        }
         img{
             width:70%;
             border-radius: 5px;
+            box-shadow: 0 3px #999;
+        }
+        img:hover{
+            cursor: pointer;
+            opacity: 0.8;
+            transition: 0.2s;
+        }
+        img:active {
+            background-color: #666;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
         }
         button{
             background-color: lightgrey;
@@ -112,16 +177,26 @@
     }
 }
 .contact-wrapper{
-
+    width:80%;
+    margin: auto;
+    @include small{
+        width:70%;
+        margin: auto;
+    }
+    @include small-medium{
+        width:60%;
+        margin: auto;
+    }
+    @include medium{
+        width:50%;
+        margin: auto;
+    }
     .contact{
         background-color: rgba(200, 200, 200, 0.4);
         border-radius: 15px;
         font-size: medium;
-        width:80%;
-        margin: auto;
         margin-top: 15%;
         padding: 10px 20px;
-        
         .links{
             a{
                 text-decoration: none;

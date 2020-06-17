@@ -10,8 +10,12 @@ const Projects = () => {
     return (
         <div className="projects-wrapper">
             <div className="projects">
-                <p>Hackathon Portal</p>
-                <img src={HP} alt="Hackathon Portal Screen Shot" />
+                <a target="_blank" rel="noopener noreferrer" href="https://www.hackathon-portal.tech/">
+                    <h3>Hackathon Portal</h3>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.hackathon-portal.tech/">
+                    <img src={HP} alt="Hackathon Portal Screen Shot" />
+                </a>
                 <p>Redesigned a platform to host and participate in hackathons built with React.
                 <br />
                 - Matched the design spec to redesign the website using Figma
@@ -32,8 +36,12 @@ const Projects = () => {
                 </a>
             </div>
             <div className="projects">
-                <p>Giga-Pet</p>
-                <img src={GP} alt="Giga-Pet Screen Shot" />
+                <a target="_blank" rel="noopener noreferrer" href="https://gigapet-3.github.io/Marketing-Page/index.html">
+                    <h3>Giga-Pet</h3>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://gigapet-3.github.io/Marketing-Page/index.html">
+                    <img src={GP} alt="Giga-Pet Screen Shot" />
+                </a>
                 <p>Developed a website to help parents inspire their kids to eat healthy meals, that was built with Node.js
                 <br />
                 - Produced a backend for the website in Node.js
@@ -54,8 +62,12 @@ const Projects = () => {
                 </a>
             </div>
             <div className="projects">
-                <p>Weightlifting Journal</p>
-                <img src={WJ} alt="Weightlifting Journal Screen Shot" />
+                <a target="_blank" rel="noopener noreferrer" href="https://bw-weightlifting-journal.netlify.app/">
+                    <h3>Weightlifting Journal</h3>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://bw-weightlifting-journal.netlify.app/">
+                    <img src={WJ} alt="Weightlifting Journal Screen Shot" />
+                </a>
                 <p>Constructed a website where a user can keep track of their daily workouts with React
                 <br />
                 - Constructed the front end of the website using React

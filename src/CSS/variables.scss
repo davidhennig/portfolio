@@ -1,3 +1,9 @@
-@mixin breakpoint {
-    @media (min-width: 1024px) { @content };
+@mixin small {
+    @media (min-width: 700px) { @content };
+}
+@mixin small-medium {
+    @media (min-width: 800px) { @content };
+}
+@mixin medium {
+    @media (min-width: 1000px) { @content };
 }
