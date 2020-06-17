@@ -22,15 +22,19 @@ const About = () => {
         <div className="about-wrapper">
             <div className="hero">
                 <img src={Headshot} />
-                <p>David J. Hennig</p>
+                <p>DAVID J. HENNIG</p>
             </div>
             <div className="about">
+
+                <h3>About me</h3>
 
                 <p>
                     I am a full stack web developer skilled in Javascript and Python with additional experience in React and Node.js. My studies in audio engineering (BM, University of Massachusetts Lowell '17) developed a strong sense of creativity and aesthetics, as well as critical thinking and abstract problem solving skills. I operate confidently in both front-end and back-end environments.
                 </p>
+            </div>
+            <div className="skills">
                 <h3>Skills</h3>
-                <div className="skills">
+                <div className="svg">
                     <div>
                         <object type="image/svg+xml" data={HTML5} width="60"></object>
                         <div>HTML5</div>

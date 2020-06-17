@@ -7,3 +7,6 @@
 @mixin medium {
     @media (min-width: 1000px) { @content };
 }
+@mixin large {
+    @media (min-width: 1200px) { @content };
+}
