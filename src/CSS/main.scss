@@ -1,0 +1,284 @@
+@import "./variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@font-face {
+    font-family: "Berthold";
+    src: url('../Fonts//block-berthold-condensed.ttf');
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+    margin: auto;
+    font-family: 'Berthold';
+    font-size: x-large;
+    letter-spacing: 2px;
+    @include small{
+        width:70%;
+        margin: auto;
+    }
+    @include small-medium{
+        width:60%;
+        margin: auto;
+    }
+    @include medium{
+        width:50%;
+        margin: auto;
+    }
+    .nav-button{
+        margin:5px;
+        margin-bottom: 30px;
+        text-decoration: none;
+        color: rgb(34,139,34);
+        background-color: rgba(250,143,4,0.7);
+        box-shadow: 0 3px rgba(163, 92, 0, 0.7);
+        border-radius: 5px;
+        padding: 5px 10px;
+    }
+    .nav-button:hover{
+        cursor: pointer;
+        opacity: 0.8;
+        transition: 0.2s;
+    }
+    .nav-button:active {
+        background-color: #666;
+        box-shadow: 1 5px #666;
+        transform: translateY(4px);
+    }
+}
+.about-wrapper{
+    height: 90vh;
+    width:80%;
+    display:flex;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    @include small{
+        width:70%;
+        margin: auto;
+    }
+    @include small-medium{
+        width:60%;
+        margin: auto;
+    }
+    @include medium{
+        width:50%;
+        margin: auto;
+    }
+    .hero{
+        display: flex;
+        margin-bottom: 20px;;
+        width: 100%;
+        img{
+            width: 40%;
+            border-radius: 1000px;
+            @include small-medium{
+                width:40%;
+            }
+            @include large{
+                width:20%;
+            }
+        }
+        p{
+            font-family: 'Berthold';
+            font-size: x-large;
+            letter-spacing: 2px;
+            padding-left: 50px;
+            @include large{
+            font-size: xx-large;
+            padding-left: 50px;
+            }
+        }
+    }
+    h3{
+        font-family: 'Berthold';
+        font-size: x-large;
+        letter-spacing: 2px;
+    }
+    .about{
+        padding: 10px 30px;
+        background-color: rgba(200, 200, 200, 0.65);
+        color: black;
+        border-radius: 5px;
+        p{
+            font-size: large;
+        }
+    }
+    .skills{
+        background-color: rgba(200, 200, 200, 0.65);
+        border-radius: 5px;
+        margin: 50px 0px;
+        padding: 10px 30px;
+        .svg{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            font-size: medium;
+    
+            @include medium{
+                width:60%;
+                margin: auto;
+            }
+        }
+    }
+}
+.projects-wrapper{
+    width:80%;
+    margin: auto;
+    @include small{
+        width:70%;
+        margin: auto;
+    }
+    @include small-medium{
+        width:60%;
+        margin: auto;
+    }
+    @include medium{
+        width:50%;
+        margin: auto;
+    }
+    .projects{
+        background-color: rgba(200, 200, 200, 0.65);
+        border-radius: 5px;
+        font-size: medium;
+        margin: auto;
+        margin-bottom: 20px;
+        padding: 10px 20px;
+        h3{
+            font-family: 'Berthold';
+            font-size: x-large;
+            letter-spacing: 2px;
+        }
+        a{
+            text-decoration: none;
+            color:black;
+        }
+        img{
+            width:70%;
+            border-radius: 5px;
+            box-shadow: 0 3px #999;
+        }
+        img:hover{
+            cursor: pointer;
+            opacity: 0.8;
+            transition: 0.2s;
+        }
+        img:active {
+            background-color: #666;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+        button{
+            color: rgb(34,139,34);
+            background-color: rgba(250,143,4,1);
+            box-shadow: 0 3px rgba(163, 92, 0, 0.7);
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin-left: 20px;;
+            font-family: 'Berthold';
+            font-size: x-large;
+        }
+        button:hover{
+            cursor: pointer;
+            opacity: 0.8;
+            transition: 0.2s;
+        }
+        button:active {
+            background-color: #666;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+    }
+}
+.resume-wrapper{
+    .resume{
+    margin-top: 10%;
+        button{
+            color: rgb(34,139,34);
+            background-color: rgba(250,143,4,0.7);
+            box-shadow: 0 3px rgba(163, 92, 0, 0.7);
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-family: 'Berthold';
+            font-size: x-large;
+            letter-spacing: 2px;
+        }
+        button:hover{
+            cursor: pointer;
+            opacity: 0.8;
+            transition: 0.2s;
+        }
+        button:active {
+            background-color: #666;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+    }
+}
+.contact-wrapper{
+    width:80%;
+    margin: auto;
+    font-family: 'Berthold';
+    font-size: x-large;
+    letter-spacing: 2px;
+    @include small{
+        width:70%;
+        margin: auto;
+    }
+    @include small-medium{
+        width:60%;
+        margin: auto;
+    }
+    @include medium{
+        width:50%;
+        margin: auto;
+    }
+    .contact{
+
+        font-size: medium;
+        margin-top: 15%;
+        padding: 10px 20px;
+        .links{
+            a{
+                text-decoration: none;
+                color:black;
+                margin-bottom: 20px;
+                button{
+                    color: rgb(34,139,34);
+                    background-color: rgba(250,143,4,1);
+                    box-shadow: 0 3px rgba(163, 92, 0, 0.7);
+                    border: none;
+                    outline: none;
+                    border-radius: 5px;
+                    padding: 10px 20px;
+                }
+                button:hover{
+                    cursor: pointer;
+                    opacity: 0.8;
+                    transition: 0.2s;
+                }
+                button:active {
+                    background-color: #666;
+                    box-shadow: 0 5px #666;
+                    transform: translateY(4px);
+                }
+            }
+            p{
+                margin:0px;
+            }
+            .link{
+                margin:auto;
+                margin-bottom: 30px;
+                background-color: rgba(200, 200, 200, 0.65);
+                border-radius: 5px;
+                width: 30%;
+                padding-bottom: 20px;
+            }
+
+        }
+    }
+}
