@@ -12,8 +12,6 @@ import SQL from "../SVG's/sql-server.svg";
 import Postgresql from "../SVG's/postgresql.svg";
 import Materialui from "../SVG's/material-ui.svg";
 
-// #vcjnb
-// sdfljkhsadf
 
 
 const About = () => {
