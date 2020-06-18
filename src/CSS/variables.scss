@@ -1,3 +1,6 @@
+@mixin x-small {
+    @media (min-width: 500px) { @content };
+}
 @mixin small {
     @media (min-width: 700px) { @content };
 }
