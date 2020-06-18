@@ -11,11 +11,15 @@
     width:80%;
     margin: auto;
     font-family: 'Berthold';
-    font-size: x-large;
+    font-size: small;
     letter-spacing: 2px;
+    @include x-small{
+        font-size: x-large;
+    }
     @include small{
         width:70%;
         margin: auto;
+        font-size: x-large;
     }
     @include small-medium{
         width:60%;
@@ -26,7 +30,7 @@
         margin: auto;
     }
     .nav-button{
-        margin:5px;
+        margin-top:5px;
         margin-bottom: 30px;
         text-decoration: none;
         color: rgb(0, 71, 0);
