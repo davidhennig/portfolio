@@ -249,6 +249,9 @@
         font-size: medium;
         margin-top: 15%;
         padding: 10px 20px;
+        @include large{
+            margin-top: 8%;
+        }
         .links{
             a{
                 text-decoration: none;
