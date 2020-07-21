@@ -1,7 +1,7 @@
 import React from "react";
 import HP from "../Images/HP.png";
 import GP from "../Images/GP.png";
-import WJ from "../Images/WJ.png";
+import GS from "../Images/GS.png";
 
 const Projects = () => {
 
@@ -62,26 +62,26 @@ const Projects = () => {
                 </a>
             </div>
             <div className="projects">
-                <a target="_blank" rel="noopener noreferrer" href="https://bw-weightlifting-journal.netlify.app/">
-                    <h3>Weightlifting Journal</h3>
+                <a target="_blank" rel="noopener noreferrer" href="https://github-social.netlify.app/">
+                    <h3>Github Social</h3>
                 </a>
-                <a target="_blank" rel="noopener noreferrer" href="https://bw-weightlifting-journal.netlify.app/">
-                    <img src={WJ} alt="Weightlifting Journal Screen Shot" />
+                <a target="_blank" rel="noopener noreferrer" href="https://github-social.netlify.app/">
+                    <img src={GS} alt="Github Social Screen Shot" />
                 </a>
-                <p>Constructed a website where a user can keep track of their daily workouts with React
+                <p>Constructed a website where a user can search the github API for repositories or users
                 <br />
                 - Constructed the front end of the website using React
                 <br />
-                - Guided less experienced team members
+                - Collaborated with other developers
                 <br />
-                - Built using: React and Material UI
+                - Built using: React and Sass
                 </p>
-                <a target="_blank" rel="noopener noreferrer" href="https://bw-weightlifting-journal.netlify.app/">
+                <a target="_blank" rel="noopener noreferrer" href="https://github-social.netlify.app/">
                     <button>
                         View Project
                     </button>
                 </a>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/Build-Week-WeightLiftingJournal/Front-end">
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/github-social/frontend">
                     <button>
                         View Github
                     </button>
