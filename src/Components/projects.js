@@ -37,16 +37,18 @@ const Projects = () => {
             </div>
             <div className="projects">
                 <a target="_blank" rel="noopener noreferrer" href="https://gigapet-3.github.io/Marketing-Page/index.html">
-                    <h3>Giga-Pet</h3>
+                    <h3>Lambdi-Pet</h3>
                 </a>
                 <a target="_blank" rel="noopener noreferrer" href="https://gigapet-3.github.io/Marketing-Page/index.html">
                     <img src={GP} alt="Giga-Pet Screen Shot" />
                 </a>
-                <p>Developed a website to help parents inspire their kids to eat healthy meals, that was built with Node.js
+                <p>Developed a website to help parents inspire their kids to eat healthy meals. The child can feed their pet the same food they have eaten, and the pet will become more or less healthy depending on their food choices
                 <br />
                 - Produced a backend for the website in Node.js
                 <br />
                 - Created nodes that could handle all of the necessary inputs from the frontend
+                <br />
+                - Lead the back-end for the project while also coaching other team members on the front-end
                 <br />
                 - Built using: Node.js, Express, Knex
                 </p>

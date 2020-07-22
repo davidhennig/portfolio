@@ -27,7 +27,9 @@ const About = () => {
                 <h3>About me</h3>
 
                 <p>
-                    I am a full stack web developer skilled in Javascript and Python with additional experience in React and Node.js. My studies in audio engineering (BM, University of Massachusetts Lowell '17) developed a strong sense of creativity and aesthetics, as well as critical thinking and abstract problem solving skills. I operate confidently in both front-end and back-end environments.
+                    I am a full stack web developer skilled in Javascript and Python with additional experience in React and Node.js. My studies in audio engineering (BM, University of Massachusetts Lowell '17) developed a strong sense of creativity and aesthetics, as well as critical thinking and abstract problem solving skills. I operate confidently in both front-end and back-end environments. 
+                    < br/>
+                    Located in Manchester, NH.
                 </p>
             </div>
             <div className="skills">
