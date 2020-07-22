@@ -8,7 +8,6 @@ const Contact = () => {
     return (
         <div className="contact-wrapper">
             <div className="contact">
-                <h3>Contact</h3>
                 <div className="links">
                     <div className="link">
                         <p>Email:</p>
