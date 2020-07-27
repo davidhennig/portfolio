@@ -70,7 +70,7 @@ const Projects = () => {
                 <a target="_blank" rel="noopener noreferrer" href="https://github-social.netlify.app/">
                     <img src={GS} alt="Github Social Screen Shot" />
                 </a>
-                <p>Constructed a website where a user can search the github API for repositories or users
+                <p>Constructed a website where a user can search the Github API for repositories or users
                 <br />
                 - Constructed the front end of the website using React
                 <br />
