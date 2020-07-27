@@ -11,7 +11,7 @@ const Contact = () => {
                 <div className="links">
                     <div className="link">
                         <p>Email:</p>
-                        <a href="mailto:DavidJHennig@gmail.com">
+                        <a href="mailto:DavidJHennig@outlook.com">
                             <button>Send an email</button>
                         </a>
                     </div>
