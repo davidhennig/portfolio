@@ -18,7 +18,14 @@
     h6{
         color:black;
         letter-spacing: 5px;
+        padding-bottom: 20px;
+        margin-top: 10px;
+    }
+    h3{
+        color:black;
+        letter-spacing: 5px;
         padding-bottom: 5px;
+        margin-bottom: 50px;
     }
     @include x-small{
         font-size: 30px;
@@ -325,6 +332,7 @@
                 background-color: rgba(200, 200, 200, 0.65);
                 border-radius: 5px;
                 width: 80%;
+                padding-top: 20px;
                 padding-bottom: 20px;
                 @include x-small{
                     width: 50%;
