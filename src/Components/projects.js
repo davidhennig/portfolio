@@ -2,6 +2,7 @@ import React from "react";
 import HP from "../Images/HP.png";
 import GP from "../Images/GP.png";
 import GS from "../Images/GS.png";
+import sixCrowd from "../Images/sixCrowd.png";
 
 const Projects = () => {
 
@@ -30,6 +31,34 @@ const Projects = () => {
                     </button>
                 </a>
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Lambda-School-Labs?q=hackathon&type=&language=">
+                    <button>
+                        View Github
+                    </button>
+                </a>
+            </div>
+            <div className="projects">
+                <a target="_blank" rel="noopener noreferrer" href="https://6-crowd.com/">
+                    <h3>6-Crowd</h3>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://6-crowd.com/">
+                    <img src={sixCrowd} alt="6-Crowd Homepage Screenshot" />
+                </a>
+                <p>Designed and developed a website to promote an independent film. The goal of the website was to build a website that could be believed to be a website that was created in the 90's and was abandoned, never to be updated
+                <br />
+                - Designed with Figma
+                <br />
+                - Developed with React
+                <br />
+                - Communicated with the owner to fully realize their desired website
+                <br />
+                - Built using: React and CSS
+                </p>
+                <a target="_blank" rel="noopener noreferrer" href="https://6-crowd.com/">
+                    <button>
+                        View Project
+                    </button>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/davidhennig/6-crowds">
                     <button>
                         View Github
                     </button>
